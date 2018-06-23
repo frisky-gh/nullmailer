@@ -3,7 +3,7 @@ sysconfdir = @sysconfdir@/nullmailer
 
 EXTRA_DIST = BUGS HOWTO INSTALL TODO spec \
 	scripts/nullmailer.run scripts/nullmailer-log.run \
-	scripts/nullmailer.service
+	scripts/nullmailer.service scripts/nullmailer.init
 SUBDIRS = doc lib protocols src test
 
 install-data-local:
